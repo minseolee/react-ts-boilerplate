@@ -1,0 +1,7 @@
+.page-container {
+    margin-top: var(--header-height);
+    padding: 24px 16px;
+    background-color: var(--gray-2);
+    height: calc(100vh - var(--header-height));
+}
+

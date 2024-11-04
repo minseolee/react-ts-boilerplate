@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: calc(-1.5 * var(--header-height)) !important;
+    margin-left: -17px !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    background-color: var(--gray-2);
+}
+
+.container input {
+    border: 1px solid var(--gray-1);
+    width: 80%;
+    height: 36px;
+    padding: 4px;
+    padding-left: 8px;
+}
+
+.btn-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-area button {
+    width: calc(40% - 8px);
+    height: 36px;
+    border-radius: 8px;
+}
+
+.signup-btn {
+    border: 1px solid var(--gray-1);
+    background-color: white;
+}
+
+.login-btn {
+    border: none;
+    background-color: var(--brand-color);
+    color: white;
+}

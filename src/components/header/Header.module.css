@@ -1,0 +1,43 @@
+.container {
+    height: var(--header-height);
+    width: 100vw;
+
+    font-weight: bold;
+    font-size: var(--fs-5);
+
+    border-bottom: 1px solid var(--gray-1);
+    background-color: var(--navy-1);
+
+    position: fixed;
+    max-width: var(--max-wwidth);
+    top: 0;
+}
+
+.default-container {
+    height: 100%;
+    & img {
+        display: inline-block;
+        height: 100%;
+    }
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-area {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.button-logout {
+    background-color: indianred;
+    color: white;
+    height: 36px;
+}
+
+.button-admin {
+    background-color: skyblue;
+    color: white;
+    height: 36px;
+}

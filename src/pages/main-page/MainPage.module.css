@@ -1,0 +1,21 @@
+.container {
+    background-color: white;
+    padding: 24px;
+    height: 100%;
+}
+
+.sec-code-editor {
+    height: 50%;
+}
+
+.sec-query-result {
+    height: calc(50% - 24px);
+}
+
+.nav-wrapper {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
